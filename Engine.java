@@ -16,7 +16,7 @@ public class Engine {
  */
     public void refuel() {
         fuel_level = max_fuel_level;
-        System.out.println(fuel_level);
+        System.out.println(fuel_level); 
     }
 /**
  * Decreases the fuel level of the engine by one each time method is called.

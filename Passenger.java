@@ -26,7 +26,7 @@ public class Passenger {
             System.out.println("Sorry, this car is full.");
         }
     }
-/**
+/** 
  * Removes a passenger from a car 
  * @param Car c; a Car object
  */

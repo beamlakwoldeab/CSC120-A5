@@ -10,7 +10,7 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ## Assignment Points:
 
-### Level 1 (4 pts)
+### Level 1 (4 pts) 
 
 **YES** 1 pt: All classes, methods, and attributes are named as requested in the assignment specifications
 

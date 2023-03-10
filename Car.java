@@ -73,7 +73,7 @@ public class Car {
         else {
             System.out.println("This car is EMPTY.");
         }
-        
+         
     }
 
     public static void main(String[] args) {
