@@ -1,5 +1,7 @@
 import java.util.ArrayList;
-
+/**
+ * Represents a Train which contains many cars.
+ */
 public class Train {
     private ArrayList<Car> cars;
     FuelType fuelType;
@@ -21,18 +23,32 @@ public class Train {
         
     }
 
+/**
+ * Returns the engine of the train.
+ * @return engine
+ */
     public Engine getEngine(){
         return this.engine;
     }
-
+/**
+ * Returns a single car of the train.
+ * @param int i, which represents the ith car
+ * @return car i
+ */
     public Car getCar(int i){
         return cars.get(i);
     }
-
+/**
+ * Returns the maximum passenger capacity of the entire train.
+ * @return the passenger capacity of the train.
+ */
     public int getMaxCapacity(){
         return (this.passengerCapacity);
     }
-
+/**
+ * Returns the seats remaining on the entire train.
+ * @return int i which is the number of seats remaining across all cars.
+ */
     public int seatsRemaining(){
         int i = 0;
         for (Car c : cars){ 
@@ -40,7 +56,9 @@ public class Train {
     } 
     return i;
     }
-    
+ /**
+ * Prints out the names of all the people on the train
+ */   
     public void printManifest(){
         for (Car c : cars){
             c.printManifest();
